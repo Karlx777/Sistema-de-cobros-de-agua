@@ -11,6 +11,9 @@ import { ConsultarComponent } from './consultar/consultar.component';
 import { RegistrarComponent } from './registrar/registrar.component';
 import { ConceptoComponent } from './concepto/concepto.component';
 import { FacturaComponent } from './factura/factura.component';
+import { LecturaComponent } from './lectura/lectura.component';
+import { MedidorComponent } from './medidor/medidor.component';
+import { TarifaComponent } from './tarifa/tarifa.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +25,9 @@ import { FacturaComponent } from './factura/factura.component';
     RegistrarComponent,
     ConceptoComponent,
     FacturaComponent,
+    LecturaComponent,
+    MedidorComponent,
+    TarifaComponent,
   ],
   imports: [
     BrowserModule,

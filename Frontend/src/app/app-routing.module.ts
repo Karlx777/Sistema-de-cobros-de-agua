@@ -8,6 +8,9 @@ import { RegistrarComponent } from './registrar/registrar.component';
 import { ConsultarComponent } from './consultar/consultar.component';
 import { ConceptoComponent } from './concepto/concepto.component';
 import { FacturaComponent } from './factura/factura.component';
+import { MedidorComponent } from './medidor/medidor.component';
+import { LecturaComponent } from './lectura/lectura.component';
+import { TarifaComponent } from './tarifa/tarifa.component';
 
 
 const routes: Routes =[
@@ -16,7 +19,10 @@ const routes: Routes =[
   {path: 'registrar', component: RegistrarComponent},
   {path: 'consultar', component: ConsultarComponent},
   {path: 'concepto', component: ConceptoComponent},
-  {path: 'factura', component: FacturaComponent}
+  {path: 'factura', component: FacturaComponent},
+  {path: 'lectura', component: LecturaComponent},
+  {path: 'medidor', component: MedidorComponent},
+  {path: 'tarifa', component: TarifaComponent}
 
 
 ];
