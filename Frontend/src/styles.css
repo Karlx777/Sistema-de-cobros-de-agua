@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb4HnSykAQMxFnzOUxWHJ1eyA-txUVa9Vf2GgzSAp8lQIXYizGBOGJRqojjfdz8mY3r9I&usqp=CAU)no-repeat
+  fixed center center #333;
+    background-size: cover;
+}
